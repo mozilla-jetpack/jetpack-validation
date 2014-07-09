@@ -1,0 +1,36 @@
+{
+  "name": "jetpack-validation",
+  "version": "0.0.1",
+  "description": "Validate a directory with a manifest for Firefox Addon's using Jetpack and jpm",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec --ui bdd"
+  },
+  "dependencies": {
+    "jetpack-id": "0.0.4",
+    "mozilla-toolkit-versioning": "0.0.1",
+    "resolve": "^0.7.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jsantell/jetpack-validation.git"
+  },
+  "author": "Jordan Santell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsantell/jetpack-validation/issues"
+  },
+  "homepage": "https://github.com/jsantell/jetpack-validation",
+  "keywords": [
+    "jetpack",
+    "addon",
+    "mozilla",
+    "firefox",
+    "addons",
+    "validation"
+  ],
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  }
+}
