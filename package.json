@@ -8,8 +8,8 @@
   },
   "dependencies": {
     "jetpack-id": "0.0.4",
-    "mozilla-toolkit-versioning": "0.0.1",
-    "resolve": "^0.7.1"
+    "resolve": "^0.7.1",
+    "semver": "^2.3.1"
   },
   "repository": {
     "type": "git",

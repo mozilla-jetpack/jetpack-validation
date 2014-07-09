@@ -1,9 +1,10 @@
 var join = require("path").join;
 var fs = require("fs");
 var getID = require("jetpack-id");
-var mozVersion = require("mozilla-toolkit-versioning");
+var semver = require("semver");
 var resolve = require("resolve");
 var utils = require("./utils");
+
 /**
  * Takes a root directory for an addon, where the package.json lives,
  * and build options and validates the information available in the addon.
@@ -77,7 +78,6 @@ function validateVersion (manifest) {
   if (!manifest || typeof manifest.version !== "string") {
     return false;
   }
-  var version = mozVersion.parse(manifest.version);
-  return version && version.min === version.max;
+  return !!semver.valid(manifest.version);
 }
 validate.validateVersion = validateVersion;
