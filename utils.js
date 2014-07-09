@@ -2,7 +2,7 @@ var join = require("path").join;
 var fs = require("fs");
 
 function getErrorMessage (error) {
-  return fs.readSync(join(__dirname, "./data/", error), "utf8");
+  return fs.readFileSync(join(__dirname, "./data/", error), "utf8");
 }
 exports.getErrorMessage = getErrorMessage;
 
