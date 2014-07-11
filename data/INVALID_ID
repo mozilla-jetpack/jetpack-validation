@@ -7,5 +7,9 @@ is formatted as a GUID or address, like:
   'myextension@jetpack'
   'wonderfuladdon@example.jetpack.org'
 
+IF MOVING FROM CFX: The cfx tool adds `@jetpack` to your `id` field
+if invalid -- to transition to jpm, adding `@jetpack` will fix the issue,
+and also retain the same ID used on AMO.
+
 More information on valid IDs can be at the following URL:
 https://developer.mozilla.org/en-US/Add-ons/Install_Manifests#id
