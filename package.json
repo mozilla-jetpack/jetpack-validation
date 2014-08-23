@@ -1,7 +1,7 @@
 {
   "name": "jetpack-validation",
   "version": "0.0.4",
-  "description": "Validate a directory with a manifest for Firefox Addon's using Jetpack and jpm",
+  "description": "Validate a directory with a manifest for Firefox Addons using Jetpack and jpm",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec --ui bdd"
