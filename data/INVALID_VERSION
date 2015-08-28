@@ -4,6 +4,6 @@ values indicating major, minor, and patch versions. For example:
 
 "1.4.56"
 "0.0.1"
-"1.0.0rc4"
+"1.0.0-rc4"
 
 http://semver.org
