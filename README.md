@@ -1,7 +1,8 @@
 jetpack-validation
 ==================
 
-[![Build Status](https://travis-ci.org/jsantell/jetpack-validation.png)](https://travis-ci.org/jsantell/jetpack-validation)
+[![Build Status](http://img.shields.io/travis/jsantell/jetpack-validation.svg?style=flat-square)](https://travis-ci.org/jsantell/jetpack-validation)
+[![Build Status](http://img.shields.io/npm/v/jetpack-validation.svg?style=flat-square)](https://www.npmjs.org/package/jetpack-validation)
 
 Validate a directory with a manifest for Firefox Add-ons using the [Jetpack/Add-on SDK](https://github.com/mozilla/addon-sdk/) and [jpm](https://github.com/mozilla/jpm).
 
