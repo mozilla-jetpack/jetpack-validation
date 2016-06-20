@@ -1,6 +1,6 @@
 {
   "name": "jetpack-validation",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Validate a directory with a manifest for Firefox Addons using Jetpack and jpm",
   "main": "index.js",
   "scripts": {
