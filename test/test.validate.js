@@ -35,4 +35,10 @@ describe("validate", function () {
     expect(Object.keys(errors).length).to.be.equal(1);
     expect(errors.version).to.contain("semantic");
   });
+
+  it("Reports WebExtension Manifest found failures", function () {
+    var errors = validate(join(FIXTURES, "webextensionmanifest"));
+    expect(Object.keys(errors).length).to.be.equal(1);
+    expect(errors.webextensionManifestFound).to.contain("web-ext");
+  });
 });

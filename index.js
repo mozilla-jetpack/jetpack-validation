@@ -15,6 +15,8 @@ var utils = require("./utils");
 
 function validate (rootPath) {
   var manifest;
+  var webextensionManifest;
+
   var errors = {};
 
   try {
@@ -42,6 +44,12 @@ function validate (rootPath) {
 
   if (!validateVersion(manifest)) {
     errors.version = utils.getErrorMessage("INVALID_VERSION");
+  }
+
+  // If both a package.json and a manifest.json files exists in the addon
+  // root dir, raise an helpful error message that suggest to use web-ext instead.
+  if (fs.existsSync(join(rootPath, "manifest.json"))) {
+    errors.webextensionManifestFound = utils.getErrorMessage("WEBEXT_ERROR");
   }
 
   return errors;
