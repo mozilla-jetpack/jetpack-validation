@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jsantell/jetpack-validation.git"
+    "url": "git://github.com/mozilla-jetpack/jetpack-validation.git"
   },
   "author": "Jordan Santell",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jsantell/jetpack-validation/issues"
+    "url": "https://github.com/mozilla-jetpack/jetpack-validation/issues"
   },
-  "homepage": "https://github.com/jsantell/jetpack-validation",
+  "homepage": "https://github.com/mozilla-jetpack/jetpack-validation",
   "keywords": [
     "jetpack",
     "addon",
