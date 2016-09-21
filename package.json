@@ -9,7 +9,7 @@
   "dependencies": {
     "jetpack-id": "0.0.4",
     "resolve": "^0.7.1",
-    "semver": "^2.3.1"
+    "semver": "^5.3.0"
   },
   "repository": {
     "type": "git",
